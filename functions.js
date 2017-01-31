@@ -15,8 +15,9 @@ var maxScore = 0;
 function getData() {
     $.ajax({
         method: "GET",
-        url: "http://proto.io/en/jobs/candidate-questions/quiz.json"
+        url: "https://proto.io/en/jobs/candidate-questions/quiz.json"
     }).done(onDataReceived);
+   
     $.ajax({
         method: "GET",
         url: "https://proto.io/en/jobs/candidate-questions/result.json"
