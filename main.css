@@ -1,0 +1,82 @@
+.question {
+    color: dimgrey;
+    font-size: medium;
+}
+.correct {
+    width: 38%;
+    background: border-box;
+    color: greenyellow .3s ease-in ;
+}
+.wrong {
+    width: 38%;
+    background: border-box;
+    background-color: red;
+}
+input[type="radio"]{
+    margin-right: 10px;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+#possibleAnswers{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+#possibleAnswers label{
+    padding: 5px;
+}
+#quizTitle{
+    text-align: center;
+}
+#scoreTitle{
+    text-align: center;
+}
+#questionTitle{
+    text-align: center;
+}
+#questionImg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#buttons{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buttons button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@-webkit-keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: green; }
+    100% { background-color: #FFFFFF; }
+}
+@-moz-keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: green; }
+    100% { background-color: #FFFFFF; }
+}
+@-o-keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: green; }
+    100% { background-color: #FFFFFF; }
+}
+@keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: green; }
+    100% { background-color: #FFFFFF; }
+}
+
+.backgroundAnimated{
+    background-image:none !important;
+    -webkit-animation: fadeIt 3s ease-in-out;
+    -moz-animation: fadeIt 3s ease-in-out;
+    -o-animation: fadeIt 3s ease-in-out;
+    animation: fadeIt 3s ease-in-out;
+}
