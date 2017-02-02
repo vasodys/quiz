@@ -2,16 +2,6 @@
     color: dimgrey;
     font-size: medium;
 }
-.correct {
-    width: 38%;
-    background: border-box;
-    color: greenyellow .3s ease-in ;
-}
-.wrong {
-    width: 38%;
-    background: border-box;
-    background-color: red;
-}
 input[type="radio"]{
     margin-right: 10px;
 }
